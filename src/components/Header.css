@@ -1,0 +1,22 @@
+.headerContainer{
+    background-color: #0024ff;
+    height: 64px;
+    width: 100%;
+    display: flex;
+}
+.userIcon{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left:1450px;
+    top: 16px;
+}
+
+.userIcon .userIconSVG{
+    height: 32px;
+    width: 32px;
+}
+
+.userIcon .userIconSVG .path{
+    fill: white;
+}
