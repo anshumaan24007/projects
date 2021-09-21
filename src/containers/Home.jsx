@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+import './Home.css';
 import Header from '../components/Header';
+import Banner from '../components/Banner';
 
 class Home extends Component {
     constructor(props) {
@@ -14,7 +16,12 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <Header/>
+            <span>
+                <Header className="headerHomePage"/>
+            </span>
+             <span>
+                <Banner className="bannerHomePage"/>
+            </span>
             </div>
         );
     }

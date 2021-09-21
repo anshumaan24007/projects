@@ -14,15 +14,14 @@ class Header extends Component {
 
     }
 
+    displayImageFn(){
+        
+    }
+
     render() {
         return (
             <div className="headerContainer">
-                <div className="logoContainer"></div>
-                <div className="helpContainer"></div>
-                <div className="profileContainer">
-                    <span className="userIcon"><UserIcon className="userIconSVG"/></span>
-                </div>
-                <div className="dropdownNav"></div>
+               United States Of America.
             </div>
         );
     }
